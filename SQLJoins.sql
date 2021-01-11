@@ -28,3 +28,9 @@ SELECT *
 FROM sql_store.order_items oi
 JOIN products p
  ON oi.product_id=p.product_id
+
+-- self join with same employee table 
+SELECT e.employee_id, e.first_name, m.first_name AS manager 
+FROM employees e
+JOIN employees m
+	ON e.reports_to=m.employee_id
