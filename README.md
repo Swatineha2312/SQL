@@ -1,2 +1,2 @@
 # SQL
-MySQL Learning
+MySQL Learning on Workbench
