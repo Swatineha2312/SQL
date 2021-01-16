@@ -70,7 +70,3 @@ select * from customers limit 6,3
 -- this will skip first 6 rows and would show next 3 rows where 6 is the offset value
 -- Ex to find loyal customers whith max points
 select * from customers order by points DESC limit 3
-
-
-
-
