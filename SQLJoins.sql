@@ -1,4 +1,4 @@
--- Inner join -- Joining tables from same db e.g.
+-- Inner join -- Joining tables from same db different tables e.g.
  USE sql_store
 SELECT order_id, orders.customer_id, first_name,last_name 
 FROM orders 
