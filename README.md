@@ -1,2 +1,2 @@
 # SQL
-MySQL Learning on MysQL Workbench
+MySQL Practise on MysQL Workbench
